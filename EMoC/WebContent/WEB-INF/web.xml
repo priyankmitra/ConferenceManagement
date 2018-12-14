@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <servlet>
+    <servlet-name>abc</servlet-name>
+    <servlet-class>com.emoc.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>abc</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>pqr</servlet-name>
+    <servlet-class>com.emoc.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pqr</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>rst</servlet-name>
+    <servlet-class>com.emoc.EventServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>rst</servlet-name>
+    <url-pattern>/EventServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>jkl</servlet-name>
+    <servlet-class>com.emoc.MailDispatcherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>jkl</servlet-name>
+    <url-pattern>/mds</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>mod</servlet-name>
+    <servlet-class>com.emoc.Modify</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mod</servlet-name>
+    <url-pattern>/Modify</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
